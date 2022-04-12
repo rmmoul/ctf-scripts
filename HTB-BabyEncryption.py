@@ -7,7 +7,7 @@
 # through 1 to 256 and doing the math, then comparing the
 # result to the value in the msg.enc file to see if we've
 # found the decrypted value. If we find a match it gets
-# appended to the decrypted variable and then returned append
+# appended to the decrypted variable and then returned and
 # written to a message.txt file
 
 import string
