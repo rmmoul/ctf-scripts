@@ -2,11 +2,11 @@
 # The encryption is just some simple math:
 # 123 * [ascii code] + 18
 # and then result is divided by 256 and the remainder is
-# converted back to ascii and makes up the msg.enc file.
-# Here we're just bruteforcing each character by running
+# converted to hexadecimal and makes up the msg.enc file.
+# Here we're just bruteforcing each value by running
 # through 1 to 256 and doing the math, then comparing the
-# result to the value in the msg.enc file to see if we've
-# found the decrypted value. If we find a match it gets
+# result to the unhexed value from the msg.enc file to see if
+# we've found the decrypted value. If we find a match it gets
 # appended to the decrypted variable and then returned and
 # written to a message.txt file
 
