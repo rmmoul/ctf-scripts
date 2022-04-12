@@ -1,3 +1,4 @@
+# https://app.hackthebox.com/challenges/228
 # The encryption is just some simple math:
 # 123 * [ascii code] + 18
 # and then result is divided by 256 and the remainder is
